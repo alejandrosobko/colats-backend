@@ -1,9 +1,6 @@
-[![Build Status](https://travis-ci.com/alejandrosobko/descargo-api.svg?token=TqSkHJwyFjQsqxANWfpX&branch=master)](https://travis-ci.com/alejandrosobko/descargo-api)
+# Colats - API
 
-
-# Mi descargo - API
-
-API para el proyecto Mi Descargo
+API para la página https://colats.netlify.app/. Esta API permite trackear la geolocalización de donde se acceda a la página.
 
 ## Development
 
@@ -19,14 +16,6 @@ mongo:
 - dar permisos: `sudo chown -R $USER /data/db`
 - levantar mongo: `mongod`
 
-## Workflow
-
-Tomar un ticket en Trello, crear un feature branch. Cuando está listo y testeado local, crear un PR y asignarselo a alguien. Se revisa, se aprueba o solicita cambios y finalmente se mergea a master.
-
 ## Bugs?
 
 Crear un issue!
-
-
-
-
